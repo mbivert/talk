@@ -1,0 +1,8 @@
+# working directory containing nicks/ and $bfifo
+wd=/tmp/talk.d/
+# port used by serve.c
+sport=9000
+# port used by broadcast.c
+dport=9001
+# broadcast fifo
+bfifo=$wd/broadcast-unix
